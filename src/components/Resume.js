@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid tan",
+      border: "1px solid cyan",
       right: "40px",
       top: 0,
     },
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "teal teal transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -58,22 +58,22 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan",
+        borderColor: "cyan",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent teal teal",
       },
     },
   },
   timeLineYear: {
     textAlign: "center",
-    maxWidth: "9.375rem",
+    maxWidth: "9.775rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
     color: "#fff",
-    background: "tomato",
+    background: "teal",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "teal",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
@@ -102,10 +102,10 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   body1: {
-    color: "tomato",
+    color: "teal",
   },
   subtitle1: {
-    color: "tan",
+    color: "cyan",
   },
 }));
 
@@ -121,7 +121,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2018 - present
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +129,27 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Company Software Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Frespe Construction Ltd.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            My duty was to design and mantain the Company Website and design 
+            necessary marketing items like company fliers and business cards.
+            I Improved the company website increasing the company’s popularity 
+            by over 40% in one year earning me employee of the year award.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          Sept 2019 - present
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,20 +157,20 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Mentor
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Microverse Inc.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            <p>Mentored junior web developers, providing technical support through code reviews.</p>
+            <p>Proposed improvements to code organization to improve code quality and overall performance.</p>
+            <p>Provided advice and tips on how to maintain motivation to maintain longevity in the program.</p>
+
           </Typography>
         </Box>
         <Typography
@@ -185,10 +185,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            TechNovation
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Mentor (Volunteer)
           </Typography>
           <Typography
             variant="subtitle1"
