@@ -139,17 +139,17 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            My duty was to design and mantain the Company Website and design 
-            necessary marketing items like company fliers and business cards.
-            I Improved the company website increasing the company’s popularity 
-            by over 40% in one year earning me employee of the year award.
+            <p>My duty was to design and mantain the Company Website and design 
+            necessary marketing items like company fliers and business cards.</p>
+            <p>I Improved the company website increasing the company’s popularity 
+            by over 40% in one year earning me employee of the year award.</p>
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          Sept 2019 - present
+          2019 - present
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,7 +157,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Mentor
+            Mentor and Code reviewer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             Microverse Inc.
@@ -177,7 +177,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -188,45 +188,16 @@ const Resume = () => {
             TechNovation
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Mentor (Volunteer)
+            Tech Mentor
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Mentored girls below the age of 18 to develop 
+            an app to transform their societies and my team’s 
+            project won first place in the whole country.
           </Typography>
         </Box>
       </Box>
