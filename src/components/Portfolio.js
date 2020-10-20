@@ -30,12 +30,13 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    name: "CSS components and Grid Framework",
+    description: `This is a collaborative project, where the requirement\
+      was to create a grid framework and then use it to make a clone of a\
+      web page of our own choice.We created the grid framework and then\
+      used it to make a clone of the Netflix landing page.`,
     image: project1,
+    demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
   },
   {
     name: "Project 2",
@@ -108,7 +109,7 @@ const Portfolio = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" href= {project.demo} color="primary">
                   Live Demo
                 </Button>
               </CardActions>
