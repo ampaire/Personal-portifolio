@@ -25,7 +25,11 @@ const useStyles = makeStyles((theme) => ({
   cardContainer: {
     maxWidth: 345,
     margin: "3rem auto",
+    height:"60vh",
   },
+  bottom: {
+    textAlign: "center"
+  }
 }));
 
 const projects = [
@@ -39,19 +43,19 @@ const projects = [
     demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Weather App",
+    description: `Weather Application developed using HTML, CSS, Weather\
+                  API, and JavaScript. The application can be used to\
+                  determine the weather of any city in the world. A user\
+                  is able to see the temperature in °C or °F.The image in`,
     image: project2,
+    demo: `https://rawcdn.githack.com/ampaire/weather-app/7a6d585b71809de16913bcff25cbf0c53a53fcc7/dist/index.html`,
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Ultimate Ninja",
+    description: `About
+    Ultimate Ninja is a role-playing game commonly known as an RPG game.\
+    The game has been implemented in JavaScript with Phaser JS.`,
     image: project3,
   },
   {
@@ -105,10 +109,7 @@ const Portfolio = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
+              <CardActions className={classes.bottem}>
                 <Button size="small" href= {project.demo} color="primary">
                   Live Demo
                 </Button>
