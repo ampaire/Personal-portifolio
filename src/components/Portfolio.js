@@ -86,6 +86,7 @@ const projects = [
     Tags. Beautiful Tags is an online store for ladies items like\
     clothes, shoes and handbags.`,
     image: project6,
+    demo: `https://beautiful-tags.netlify.app/`,
   },
 ];
 
