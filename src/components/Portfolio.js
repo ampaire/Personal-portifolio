@@ -13,9 +13,9 @@ import Typography from "@material-ui/core/Typography";
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
+import project4 from "../images/rails-lg.png";
 import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import project6 from "../images/rails-logo.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -29,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
   },
   bottom: {
     textAlign: "center"
+  },
+  image: {
+    width: 100
   }
 }));
 
@@ -52,19 +55,20 @@ const projects = [
     demo: `https://rawcdn.githack.com/ampaire/weather-app/7a6d585b71809de16913bcff25cbf0c53a53fcc7/dist/index.html`,
   },
   {
-    name: "Ultimate Ninja",
+    name: "Ultimate Ninja (RPG game)",
     description: `About
     Ultimate Ninja is a role-playing game commonly known as an RPG game.\
     The game has been implemented in JavaScript with Phaser JS.`,
     image: project3,
+    demo: `https://affectionate-joliot-463312.netlify.app/`,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Daily Blogger",
+    description: `Daily Blogger is a Ruby on rails chat simple\
+    Web Application. Users can create an account, create or join\
+    a chat group and start chatting with your people `,
     image: project4,
+    demo: `https://dailyblogger.herokuapp.com/users/sign_in`,
   },
   {
     name: "Project 5",
