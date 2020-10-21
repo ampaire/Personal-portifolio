@@ -71,19 +71,20 @@ const projects = [
     demo: `https://dailyblogger.herokuapp.com/users/sign_in`,
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "React Calculator App",
+    description: `About
+    A user friendly and fully functional mathematics calculator\
+    that can be used for calculations. This project is built with\
+    ReactJS.`,
     image: project5,
+    demo: `https://magic-calculator.netlify.app/`,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Beautiful-tags",
+    description: `In this project, I created my own rails api and\
+    later integrated it into a React Js project to form Beautiful\
+    Tags. Beautiful Tags is an online store for ladies items like\
+    clothes, shoes and handbags.`,
     image: project6,
   },
 ];
