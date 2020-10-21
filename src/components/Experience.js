@@ -109,7 +109,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Resume = () => {
+const Experience = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
@@ -205,4 +205,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;
