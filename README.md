@@ -3,10 +3,10 @@ This is my personal portifolio as a Full-Stack Developer. It is written in React
 
 
 ## Author
-<blockquote>
-  Phemia Ampaire
-</blockquote>
-[LinkedIn](https://www.linkedin/in/phemia) || [Twitter](https://www.twitter.com/ampaphem) || [Medium](https://medium.com/@femayapr) || [Portfolio](https://phemia-ampaire.netlify.app/)
+ Phemia Ampaire
+ 
+ 
+[LinkedIn](http://linkedin.com/in/phemia) | [Twitter](http://www.twitter.com/ampaphem) || [Medium](https://medium.com/@femayapr) || [Portfolio](https://phemia-ampaire.netlify.app/)
 
 ========Thank You !!!=========
 
