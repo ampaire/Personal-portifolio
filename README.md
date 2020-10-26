@@ -6,7 +6,7 @@ This is my personal portifolio as a Full-Stack Developer. It is written in React
  Phemia Ampaire
  
  
-[LinkedIn](http://linkedin.com/in/phemia) | [Twitter](http://www.twitter.com/ampaphem) || [Medium](https://medium.com/@femayapr) || [Portfolio](https://phemia-ampaire.netlify.app/)
+[LinkedIn](https://linkedin.com/in/phemia) || [Twitter](https://www.twitter.com/ampaphem) || [Medium](https://medium.com/@femayapr) || [Portfolio](https://phemia-ampaire.netlify.app/)
 
 ========Thank You !!!=========
 
