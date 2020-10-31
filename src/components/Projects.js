@@ -43,6 +43,7 @@ const projects = [
       web page of our own choice.We created the grid framework and then\
       used it to make a clone of the Netflix landing page.`,
     image: project1,
+    github: `https://github.com/ampaire/css-grids`,
     demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
   },
   {
@@ -52,6 +53,7 @@ const projects = [
                   determine the weather of any city in the world. A user\
                   is able to see the temperature in °C or °F.The image in`,
     image: project2,
+    github: `https://github.com/ampaire/weather-app`,
     demo: `https://rawcdn.githack.com/ampaire/weather-app/7a6d585b71809de16913bcff25cbf0c53a53fcc7/dist/index.html`,
   },
   {
@@ -61,6 +63,7 @@ const projects = [
     The game has been implemented in JavaScript with Phaser JS.`,
     image: project3,
     demo: `https://affectionate-joliot-463312.netlify.app/`,
+    github: `https://github.com/ampaire/Ultimate-Ninja`,
   },
   {
     name: "Daily Blogger",
@@ -69,6 +72,7 @@ const projects = [
     a chat group and start chatting with your people `,
     image: project4,
     demo: `https://dailyblogger.herokuapp.com/users/sign_in`,
+    github: `https://github.com/ampaire/DailyBlogger`,
   },
   {
     name: "React Calculator App",
@@ -78,6 +82,7 @@ const projects = [
     ReactJS.`,
     image: project5,
     demo: `https://magic-calculator.netlify.app/`,
+    demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
   },
   {
     name: "Beautiful-tags",
@@ -87,6 +92,7 @@ const projects = [
     clothes, shoes and handbags.`,
     image: project6,
     demo: `https://beautiful-tags.netlify.app/`,
+    demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
   },
 ];
 
