@@ -82,7 +82,7 @@ const projects = [
     ReactJS.`,
     image: project5,
     demo: `https://magic-calculator.netlify.app/`,
-    demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
+    demo: `https://github.com/ampaire/react-calculator`,
   },
   {
     name: "Beautiful-tags",
@@ -92,7 +92,7 @@ const projects = [
     clothes, shoes and handbags.`,
     image: project6,
     demo: `https://beautiful-tags.netlify.app/`,
-    demo: `https://raw.githack.com/ampaire/css-grids/master/index.html`,
+    demo: `https://github.com/ampaire/Beautiful-Tags`,
   },
 ];
 
@@ -122,6 +122,9 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.bottem}>
+              <Button size="small" href= {project.github} color="primary">
+                  GitHub
+                </Button>
                 <Button size="small" href= {project.demo} color="primary">
                   Live Demo
                 </Button>
