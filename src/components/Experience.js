@@ -139,8 +139,8 @@ const Experience = () => {
             align="center"
             className={classes.subtitle1}
           >
-            <p>My duty was to design and maintain the Company Website and design 
-            necessary marketing items like company fliers and business cards.</p>
+            <p>My duty was to design and maintain the company website and design 
+              necessary marketing items like company fliers and business cards.</p>
             <p>I Improved the company website increasing the company’s popularity 
             by over 40% in one year earning me employee of the year award.</p>
           </Typography>
