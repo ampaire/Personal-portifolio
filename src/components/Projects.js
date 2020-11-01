@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   cardContainer: {
     maxWidth: 345,
     margin: "3rem auto",
-    height:"60vh",
+    height:"70vh",
   },
   bottom: {
     textAlign: "center"

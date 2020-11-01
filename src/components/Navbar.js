@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   menuSliderContainer: {
-    width: 250,
+    width: 300,
     background: "teal",
     height: "100%",
   },
@@ -102,7 +102,7 @@ const Navbar = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
         <Footer />
       </Drawer>
