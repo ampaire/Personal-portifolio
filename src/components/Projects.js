@@ -38,9 +38,9 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "CSS components and Grid Framework",
-    description: `This is a collaborative project, where the requirement\
-      was to create a grid framework and then use it to make a clone of a\
-      web page of our own choice.We created the grid framework and then\
+    description: `This is a collaborative project, where the requirements\
+      were to create a grid framework and then use it to make a clone of a\
+      web page of our own choice. We created the grid framework and then\
       used it to make a clone of the Netflix landing page.`,
     image: project1,
     github: `https://github.com/ampaire/css-grids`,
