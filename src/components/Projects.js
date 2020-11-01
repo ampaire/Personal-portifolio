@@ -60,14 +60,14 @@ const projects = [
     name: "Ultimate Ninja (RPG game)",
     description: `About
     Ultimate Ninja is a role-playing game commonly known as an RPG game.\
-    The game has been implemented in JavaScript with Phaser JS.`,
+    The game has been implemented in JavaScript with PhaserJS.`,
     image: project3,
     demo: `https://affectionate-joliot-463312.netlify.app/`,
     github: `https://github.com/ampaire/Ultimate-Ninja`,
   },
   {
     name: "Daily Blogger",
-    description: `Daily Blogger is a Ruby on rails chat simple\
+    description: `Daily Blogger is a Ruby on Rails chat simple\
     Web Application. Users can create an account, create or join\
     a chat group and start chatting with your people `,
     image: project4,
@@ -77,7 +77,7 @@ const projects = [
   {
     name: "React Calculator App",
     description: `About
-    A user friendly and fully functional mathematics calculator\
+    A user-friendly and fully functional mathematics calculator\
     that can be used for calculations. This project is built with\
     ReactJS.`,
     image: project5,
