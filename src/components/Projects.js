@@ -86,8 +86,8 @@ const projects = [
   },
   {
     name: "Beautiful-tags",
-    description: `In this project, I created my own rails api and\
-    later integrated it into a React Js project to form Beautiful\
+    description: `In this project, I created my own Rails API and\
+    later integrated it into a ReactJs project to form Beautiful\
     Tags. Beautiful Tags is an online store for ladies items like\
     clothes, shoes and handbags.`,
     image: project6,
