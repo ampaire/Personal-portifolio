@@ -61,7 +61,7 @@ const projects = [
     description: `About
     Ultimate Ninja is a role-playing game commonly known as an RPG game.\
     The game has been implemented in JavaScript with PhaserJS. The purpose\
-    of the game is to fight all the enemies available to achieve`,
+    of the game is to fight all the enemies available to achieve higher scores.`,
     image: project3,
     demo: `https://affectionate-joliot-463312.netlify.app/`,
     github: `https://github.com/ampaire/Ultimate-Ninja`,
