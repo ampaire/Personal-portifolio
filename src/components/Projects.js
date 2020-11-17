@@ -61,7 +61,7 @@ const projects = [
     description: `About
     Ultimate Ninja is a role-playing game commonly known as an RPG game.\
     The game has been implemented in JavaScript with PhaserJS. The purpose\
-    of the game is to fight all the enemies available to achieve higher scores.`,
+    of the game is to fight all the enemies available to attain higher scores.`,
     image: project3,
     demo: `https://affectionate-joliot-463312.netlify.app/`,
     github: `https://github.com/ampaire/Ultimate-Ninja`,
@@ -71,7 +71,7 @@ const projects = [
     description: `Daily Blogger is a simple Ruby on Rails chat \
     Application. Users can create an account, create or join\
     a chat group and start chatting with other people \
-    Users can also delete their acoounts`,
+    Users can also delete their acoounts.`,
     image: project4,
     demo: `https://dailyblogger.herokuapp.com/users/sign_in`,
     github: `https://github.com/ampaire/DailyBlogger`,
