@@ -70,7 +70,7 @@ const projects = [
     name: "Daily Blogger",
     description: `Daily Blogger is a simple Ruby on Rails chat \
     Application. Users can create an account, create or join\
-    a chat group and start chatting with other people \
+    a chat group and start chatting with other people.\
     Users can also delete their acoounts.`,
     image: project4,
     demo: `https://dailyblogger.herokuapp.com/users/sign_in`,
