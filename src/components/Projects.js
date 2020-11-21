@@ -80,7 +80,7 @@ const projects = [
     name: "React Calculator App",
     description: `About
     A user-friendly and fully functional mathematics calculator\
-    that can be used for simple calculations. This project is built with\
+    that can be used for simple Mathematical calculations. This project is built with\
     ReactJS.`,
     image: project5,
     demo: `https://magic-calculator.netlify.app/`,
