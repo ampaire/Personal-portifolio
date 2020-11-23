@@ -81,8 +81,7 @@ const projects = [
     description: `About
     A user-friendly and fully functional mathematics calculator\
     that can be used for simple Mathematical calculations. \
-    This project is built with\
-    ReactJS.`,
+    This project is built with ReactJS.`,
     image: project5,
     demo: `https://magic-calculator.netlify.app/`,
     github: `https://github.com/ampaire/react-calculator`,
