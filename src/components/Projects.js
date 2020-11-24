@@ -48,8 +48,8 @@ const projects = [
   },
   {
     name: "Weather App",
-    description: `Weather Application developed using HTML, CSS, Weather\
-                  API, and JavaScript. The application can be used to\
+    description: `Weather Application developed using HTML, CSS, Weather API,\
+                  and JavaScript. The application can be used to\
                   determine the weather of any city in the world. A user\
                   is able to see the temperature in °C or °F.The image in`,
     image: project2,
