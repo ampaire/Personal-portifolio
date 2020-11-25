@@ -58,8 +58,7 @@ const projects = [
   },
   {
     name: "Ultimate Ninja (RPG game)",
-    description: `About
-    Ultimate Ninja is a role-playing game commonly known as an RPG game.\
+    description: `Ultimate Ninja is a role-playing game commonly known as an RPG game.\
     The game has been implemented in JavaScript with PhaserJS. The purpose\
     of the game is to fight all the enemies available to attain higher scores.`,
     image: project3,
